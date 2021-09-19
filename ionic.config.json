@@ -1,0 +1,8 @@
+{
+  "name": "facilitytoolionic",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular"
+}

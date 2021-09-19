@@ -1,0 +1,32 @@
+<ion-header>
+    <ion-toolbar color="danger">
+        <ion-buttons slot="start">
+            <ion-menu-button autoHide="false"></ion-menu-button>
+        </ion-buttons>
+        <ion-title class="ion-text-center">
+            Instellingen
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+    <ion-item>
+        <ion-avatar slot="start">
+            <img src="https://toppng.com/uploads/preview/beautiful-icon-vector-shield-marvel-free-icons-and-avengers-a-symbol-11553501608y8qjotnyh0.png">
+        </ion-avatar>
+        <ion-label>
+            <h3>{{naam}}</h3>
+            <p>{{email}}</p>
+        </ion-label>
+
+    </ion-item>
+
+
+    <a href="https://login.microsoftonline.com/33d8cf3c-2f14-48c0-9ad6-5d2825533673/oauth2/v2.0/logout?post_logout_redirect_uri=http://localhost:8100/login">
+        <ion-button class="logoutButton" color="danger" (click)="logout()">
+            Logout
+        </ion-button>
+    </a>
+
+</ion-content>

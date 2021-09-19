@@ -1,0 +1,121 @@
+ion-content ion-toolbar {
+    --background: translucent;
+}
+
+ion-searchbar {
+    text-align: center;
+}
+
+
+ion-card-content {
+    //--background: linear-gradient(90deg, rgba(203, 105, 99, 0.3144608185070903) 0%, rgba(230, 137, 129, 0.12958686892725846) 35%, rgba(24, 202, 238, 0.034348773689163115) 100%);
+    background-color: #fefefe;
+}
+
+#filter {
+    margin: auto;
+    text-align: center;
+}
+
+#sortingList {
+     width: 100%;
+    // float: right;
+}
+
+#sortingList ion-label {
+    font-size: 12px;
+}
+
+#toggleOD {
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+    padding-left: 15%;
+    font-size: 12px;
+}
+
+#toggleOD p,
+ion-toggle {
+    float: left;
+}
+
+ion-grid {
+    margin: auto;
+    width: 70%;
+}
+
+.exportbutton {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 40%;
+    font-size: 10px;
+}
+
+.exportcss{
+    opacity: 0;
+}
+
+.bg {
+    background-color: #68676c;
+}
+
+.box1 {
+    position: relative;
+}
+
+.description {
+    position: relative;
+    cursor: pointer;
+}
+
+.upvote {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.upvote p {
+    text-align: center;
+}
+
+.heart-icon {
+    font-size: 35px;
+    color: "danger";
+}
+
+.assign {
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    #toggleOD {
+        padding-left: 3%;
+        font-size: 12px;
+    }
+    ion-grid {
+        width: 100%;
+    }
+    .description {
+        width: 65%;
+        overflow: visible;
+        text-overflow: unset;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        white-space: normal;
+        word-break: break-all;
+        // margin-right: 20px;
+        margin-right: 32px;
+    }
+}
+#emptyText {
+    padding-top: 20px;
+    font-size: 26px;
+    margin: auto;
+    color: #68676c;
+}
